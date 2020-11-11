@@ -1,0 +1,29 @@
+header {
+    background-color: white;
+    font-style: oblique;
+    font-family:sans-serif;
+    text-align: center;
+    
+    
+}
+
+section {
+    background-color: lightblue;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 9px;
+  width: 400px;
+}
