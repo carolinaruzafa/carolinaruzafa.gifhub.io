@@ -1,0 +1,99 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+div {
+    height: 1920px;
+    padding: 100px;
+    
+}
+
+#cabecera {    
+    background-image: url(imagenes/fondo.jpg);
+}
+
+#centro {    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+    
+}
+
+h2 {
+    margin-bottom: 100px;
+}
+
+
+
+p {
+    font-size: 24px;
+}
+
+.fuentePequena {
+    font-size: 12px;
+    color: gray;    
+}
+
+#menuCentro {
+    margin-top: 100px;    
+}
+
+#pie {    
+    background-color: black;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+li {
+    margin-top: 30px;    
+}
+
+
+
+#button {
+    font-family: Arial;
+ font-size: 25px;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ background-color: #000;
+ color: #fff;
+ }
+
+
+#button li {
+ display: inline;
+ }
+
+
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+    
+}  
+
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px 20px 20px 20px;
+    background-color: #000;
+    color:#E44C8A;
+}
+
+
+
+a:hover {
+
+padding-right: 20px;
+color: #fff;
+
+}
