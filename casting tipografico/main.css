@@ -1,0 +1,65 @@
+
+
+
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+#pagina {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#pagina div {
+    width: 30%;
+    height: 600px;
+    overflow: auto;
+    background-color: cornsilk;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+
+#tipo1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#tipo2 {
+    font-family: 'Anton', sans-serif;    
+}
+#tipo3 {
+    font-family: 'Amatic', cursive;
+}
+
+#tipo4 {
+    font-family: 'Lobster', serif;
+}
+
+#tipo5 {
+    font-family: 'Castoro', serif;
+}
+
+#tipo6 {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 2em;    
+}
+
+footer a {
+    color:cornsilk;
+}
