@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+   font-family:  
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:burlywood;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:burlywood;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+color: black;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+#icon{
+    
+color: black;
+    
+    
+}
+
+h1{
+    
+    color: black;
+    font-weight: 600;
+font-family: 'Lora', serif;
+    
+}
+
+
+
+
+
+
+
+
+
