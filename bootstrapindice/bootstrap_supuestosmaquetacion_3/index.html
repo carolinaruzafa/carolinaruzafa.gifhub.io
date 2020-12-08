@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ejemplo Boostrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   
+   
+   
+   <footer class="row">
+            <div class="col-4">
+                A
+            </div>
+      
+        </footer>
+    
+    
+    
+    <style type="text/css">
+        div {
+            box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+        }
+        nav {
+            background-color: aqua;
+            max-width: 15px;
+        }
+        #galeria {
+            background-color: bisque;
+            display: flex; /* al ser col Boostrap ya le pone Flex */
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 80vh; /* 80% altura pantalla */
+            overflow: auto;
+            
+        }        
+        #galeria div {
+            background-color: darkgray;
+            width: 100%; /* se aplica desde min-width 0 hasta 768px */
+        }        
+        @media (min-width: 768px) {
+            #galeria div{
+                width: 50%;  /* se aplica desde min-width desde 768px */
+            }
+        }        
+        #img1 {
+            height: 300px;            
+        }
+        #img2 {
+            height: 100px;            
+        }
+        #img3 {
+            height: 200px;            
+        }        
+        #img4 {
+            height: 150px;
+        }        
+        #img5 {
+            height: 350px;            
+        }        
+        #img6 {
+            height: 100px;            
+        }        
+        footer {
+            height: 20vh; /* 20% altura pantalla */
+        }
+        footer div {
+            background-color: chartreuse;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-right: 20%;
+        }
+    </style>
+</head>
+<body>
+   
+   
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-12 col-md-4">
+                MENU
+            </nav>
+            <section id="galeria" class="col-12 col-md-8">
+              
+            </section>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
+
