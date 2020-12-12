@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,4 +16,23 @@
 
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<title>ÍNDICE BOOTSTRAP</title>
+<link rel="stylesheet" href="estilos%20indice.css">
+</head>
+<body>
+
+
+<p><a href="ELPAIS/index.html">EL PAIS</a></p>
+
+
+
+
+
+
+</body>
+>>>>>>> bf5743bf6baedcf20bbf04cba8188407086f19d7
 </html>
