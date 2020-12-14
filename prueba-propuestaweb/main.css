@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Base styles*/
 * {
     margin: 0;
@@ -148,3 +149,155 @@ hamburguer.menu {
 
 
 
+=======
+/*Base styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-font-size: 1.6rem;
+    --body-font-color: #5f5f5f;
+    --body-font-family: 'Open Sans', sans-serif;
+    --heading-font-family: 'Playfair Display', sans-serif;
+    --light-color: #f4f4f4;
+    --dark-color: #262626;
+    --light-gray-color: #f2f3f7;
+    --orange-color: #ec5453;
+    --blue-color: #2c98f0;
+    --yellow-color: #f9bf3f;
+    --purple-color: #a84cb8;
+    --dark-blue-color: #4054b2;
+}
+
+
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+body {
+
+    font-family:var(--body-font-family);
+    color: (--body-font-color);
+    font-size: 1.6rem;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+
+}
+
+
+/*navigation styles*/
+
+hamburguer.menu {
+
+    display: none;
+
+}
+
+.nav {
+    width: 26rem;
+    height: 100vh;
+    background-color: var(--dark-color);
+   color: var(--light-color);
+    position: fixed;
+    top;0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+.intro{
+    
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5rem 0;
+    line-height: 1.5;
+    
+    }
+.intro-heading{
+    font-size: 2.5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.inro-subhead{
+    font-size: 1.4rem;
+    letter-spacing: 1.4px;
+    
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-item{
+    position: relative;
+    
+}
+
+.nav-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.1);
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: transform .5s cubic-bezier(.83 0 0.17,1);
+}
+
+
+.nav-item:hover::before{
+    
+    transform: scaleX(1);
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 7fe7f0a2c3f6dade146c7bfc00d0f1228dc9bc81
