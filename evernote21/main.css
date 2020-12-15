@@ -4,7 +4,13 @@
 }
 
 
+.enlinea{
+    display: inline-block;
+}
 
+#frase{
+  padding-left: 5%;  
+}
 
 
 .evernote{
