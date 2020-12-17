@@ -18,82 +18,90 @@
 
 
 
-<div class="cabecera">
-<p>Nike Digital</p></div>
+  <header>
+       
+       
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+               <div class="nike">Nike Digital</div>
+                
+            </a>
+
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar -->
+            
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
 
 
+  <main class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carrusel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrusel" data-slide-to="1"></li>
+                        <li data-target="#carrusel" data-slide-to="2"></li>
+                        <li data-target="#carrusel" data-slide-to="3"></li>
+                        
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!-- ¡¡ Cuidado: sólo puede haber uno "active" -->
+                            <img src="images/yoga.png" alt="yoga">
+                            <div class="carousel-caption">
+                                <h3>Sport</h3>
+                                <p>Yoga</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/athlete-1840437_1280.png" alt="atletismo">
+                            <div class="carousel-caption">
+                                <h3>Sport</h3>
+                                <p>Atletismo</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/zapatillas.png" alt="trainners">
+                            <div class="carousel-caption">
+                                <h3>Product</h3>
+                                <p>Trainners</p>
+                            </div>
+                        </div>
+                      
+                        </div>
+                </div>
+                    <a class="carousel-control-prev" href="#carrusel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carrusel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        
+    </main>
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
-<br>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
-
-
-    <ul class="carousel-indicators"> 
-    
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    
-     </ul>
-    
-    
-     <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/yoga.png" alt="yoga">
-    </div>
-    <div class="carousel-item">
-      <img src="images/athlete-1840437_1280.png" alt="atletismo">
-    </div>
-    <div class="carousel-item">
-      <img src="images/zapatillas.png" alt="trainners">
-    </div>
-  </div>
-    
-    
-     <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-
-    
-    </div>
-    
-    
-   <div class="jumbotron">
-        <ul>
-            <li>Projects</li>
-            <li>Studio</li>
-            <li>News</li>
-            <li>Careers</li>
-            <li>Contact</li>
-        </ul> 
-    </div>
-    
-    
-    
 
 </body>
 
