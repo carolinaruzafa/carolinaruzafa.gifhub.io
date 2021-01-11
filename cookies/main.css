@@ -10,6 +10,11 @@ header {
     
 }
 
+.function aceptarCookies {
+  localStorage.aceptaCookies = 'true';
+  cajacookies.style.display = 'none';
+}
+
 section {
     background-color:ghostwhite;
 }

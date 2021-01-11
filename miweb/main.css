@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+   
+    background-clip: border-box;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    z-index: 100;
+    padding-top: 40%;
+
+}
+
+
+/*MENU*/
+
+ul {
+
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+
+
+}
+
+
+ul li {
+
+    list-style: none;
+    text-align: center;
+    display: block;
+
+
+}
+
+ul li a {
+
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+
+}
+
+ul li a .icon {
+
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    color: black;
+}
+
+ul li a .icon .fa {
+
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+ul li a:hover .icon .fa {
+
+    transform: translateY(-100%);
+
+}
+
+ul li a .icon .fa:last-child {
+
+    color: yellow;
+}
+
+ul li a .name {
+
+    position: relative;
+    height: 20px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+}
+
+ul li a .name span {
+
+    display: block;
+    position: relative;
+    line-height: 20px;
+    transition: 0.5;
+    color: black;
+}
+
+
+ul li a .name span:before {
+
+    content: attr(data-text);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: yellow;
+
+}
+
+
+ul li a:hover .name span {
+
+    transform: translateY(20px);
+
+
+}
+
+/*carousel*/
+
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+     padding-top: 0%;
+     padding-left: 0%;
+     padding-right: 0%;
+     padding-bottom: 100%;
+     position: static;
+  }
+
+.carousel-control-prev{
+    padding-bottom: 100%;
+}
+
+.carousel-control-next{
+     padding-bottom: 100%;
+}
+
+
+.container-fluid{
+    position: absolute;
+    padding-top: 100%;
+    
+}
+
+
+.col-sm-6{
+    
+display: block;
+    position: relative;
+   padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 50%;
+    text-align: justify;
+   
+}
+
+
+h5{
+    
+    color: black;
+    
+}
+
+
+
+
+.w3-circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+
+
+    
+
+
