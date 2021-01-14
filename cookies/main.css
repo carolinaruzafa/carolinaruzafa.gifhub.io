@@ -1,3 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#cajacookies{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    
+}
+
 header {
     background-color: powderblue;
     font-style: oblique;
